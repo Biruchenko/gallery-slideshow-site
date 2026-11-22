@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+	<title>Frontend Mentor | Galleria slideshow site</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Libre%20Baskerville:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./assets/styles/iconfont.css">
+	<link rel="stylesheet" href="./assets/styles/styles.css">
+	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+	<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+	<script type="module" src="./assets/scripts/script.js" defer></script>
+</head>
+
+<body>
+	<a href="#main" class="skip-link sr-only">Skip to main content</a>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__wrapper">
+					<a href="#" class="header__logo">
+						<img src="./assets/images/shared/logo.svg" alt="" aria-hidden="true">
+					</a>
+					<button type="button" class="header__btn">START SLIDESHOW</button>
+				</div>
+			</div>
+		</header>
+		<main id="main">
+			<h1 class="sr-only" id="main-title">Galleria slideshow site</h1>
+			<section class="hero" id="gallery-view" tabindex="-1">
+				<div class="hero__container">
+					<div class="hero__items">
+						<!-- <div class="grid-sizer"></div>
+						<div class="hero__item item-hero">
+							<a href="#" class="item-hero__link" aria-label="View Starry Night">
+								<figure class="item-hero__image object-fit">
+									<img src="./assets/images/starry-night/thumbnail.jpg" alt="Starry Night by Vincent Van Gogh">
+									<figcaption class="item-hero__caption">
+										<h2 class="item-hero__title">Starry Night</h2>
+										<div class="item-hero__artist">Vincent Van Gogh</div>
+									</figcaption>
+								</figure>
+							</a>
+						</div> -->
+					</div>
+				</div>
+			</section>
+			<section class="detail hidden" id="detail-view" tabindex="-1">
+				<!-- <div class="detail__main">
+					<div class="detail__container">
+						<div class="detail__wrapper">
+							<div class="detail__content content-detail">
+								<div class="content-detail__image-wrapper">
+									<picture class="content-detail__main-image object-fit">
+										<source srcset="./assets/images/starry-night/hero-large.jpg" media="(min-width: 48rem)">
+										<img src="./assets/images/starry-night/hero-small.jpg" alt="Starry Night by Vincent Van Gogh">
+									</picture>
+									<button type="button" class="content-detail__button-overlay">
+										<span class="content-detail__button-overlay-icon icon-view-image" aria-hidden="true"></span>
+										<span class="content-detail__button-overlay-text">VIEW IMAGE</span>
+									</button>
+								</div>
+								<div class="content-detail__info-wrapper">
+									<div class="content-detail__info-body">
+										<h2 class="content-detail__info-title">Starry Night</h2>
+										<div class="content-detail__info-artist-name">Vincent Van Gogh</div>
+									</div>
+									<figure class="content-detail__info-artist-image">
+										<img src="./assets/images/starry-night/artist.jpg" alt="Vincent Van Gogh">
+									</figure>
+								</div>
+							</div>
+							<div class="detail__description description-detail">
+								<div class="description-detail__wrapper">
+									<div class="description-detail__text" data-year="1889">
+										<p>Although The Starry Night was painted during the day in Van Gogh's ground-floor studio, it would be inaccurate to state that the picture was painted from memory. The view has been identified as the one from his bedroom window, facing east, a view which Van Gogh painted variations of no fewer than twenty-one times, including The Starry Night. "Through the iron-barred window," he wrote to his brother, Theo, around 23 May 1889, "I can see an enclosed square of wheat ... above which, in the morning, I watch the sun rise in all its glory."</p>
+									</div>
+									<a href="#" class="description-detail__source" target="_blank" rel="noopener noreferrer">GO TO SOURCE</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="detail__progress-bar" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100">
+					<span style="width: 10%"></span>
+				</div>
+				<div class="detail__controls controls-detail">
+					<div class="controls-detail__container">
+						<div class="controls-detail__wrapper">
+							<div class="controls-detail__info">
+								<h3 class="controls-detail__title">Starry Night</h3>
+								<div class="controls-detail__artist-name">Vincent Van Gogh</div>
+							</div>
+							<div class="controls-detail__buttons">
+								<button type="button" class="controls-detail__button controls-detail__button--prev" aria-label="Navigate to previous image">
+									<span class="controls-detail__button-icon icon-back-button" aria-hidden="true"></span>
+								</button>
+								<button type="button" class="controls-detail__button controls-detail__button--next" aria-label="Navigate to next image">
+									<span class="controls-detail__button-icon icon-next-button" aria-hidden="true"></span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div> -->
+			</section>
+		</main>
+		<footer>
+			<div class="attribution"> Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>. </div>
+		</footer>
+	</div>
+	<!--<div class="view-image">
+		 <div class="view-image__wrapper">
+			<button type="button" class="view-image__button">Close</button>
+			<figure class="view-image__img object-fit">
+				<img src="./assets/images/starry-night/gallery.jpg" alt="Starry Night by Vincent Van Gogh">
+			</figure>
+		</div> -->
+	</div>
+</body>
+
+</html>
