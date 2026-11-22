@@ -16,7 +16,7 @@ This is a landing page for a gallery slideshow site challenge. On this site user
 
 ### Links
 
-<!-- Add live link -->
+- https://biruchenko.github.io/gallery-slideshow-site/
 
 ### Built with
 
